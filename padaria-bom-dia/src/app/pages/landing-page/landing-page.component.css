@@ -1,0 +1,66 @@
+.landing-page{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.select-dates > h3{
+    font-size: 1.5rem;
+}
+
+.select-dates{
+    display: flex;
+    flex-direction: column;
+}
+
+.select-dates > content-datepicker{
+    margin-left: 2vw;    
+}
+
+.content{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .select-dates{
+        align-items: center;
+        margin: 20px 0;   
+    }
+
+    .select-dates > h3{
+        text-align: center;
+    }
+
+    .content{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+

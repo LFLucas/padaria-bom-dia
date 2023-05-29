@@ -1,0 +1,10 @@
+<div class="landing-page">
+    <div class="select-dates">
+        <h3>Selecione a data inicial</h3>
+        <content-datepicker #dateInterval ></content-datepicker>
+    </div>
+    <div class="content">
+        <app-content-ingredient *ngFor="let i of ingredients" [obj]="i"/> 
+        
+    </div>
+</div>
